@@ -38,6 +38,10 @@ Explore condições atuais e gráficos de temperatura e chuva, com dados reais d
 
 Tecnologias utilizadas em projetos assistidos por IA não representam o mesmo nível de domínio em todas elas. Estou aprofundando a compreensão dos fluxos e das decisões, aproveitando minha experiência em backend.
 
+## Contato
+
+[LinkedIn](https://www.linkedin.com/in/cristian-weissmantel/)
+
 ## Sobre este perfil
 
 Este repositório mantém a apresentação do meu trabalho e o [padrão dos READMEs](docs/readme-standard.md). O [mapa de projetos e demos](docs/project-status.md) distingue aplicações disponíveis, demonstrações locais e publicações pendentes. O [guia de manutenção](docs/maintenance.md) organiza o próximo trabalho no portfólio.
