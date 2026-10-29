@@ -2,6 +2,8 @@
 
 Objetivo: permitir que alguém entenda o produto, encontre a demonstração e identifique o que vale examinar no código em uma leitura rápida. Padrão adotado em 28/10/2026; preservar a língua e as convenções de cada projeto.
 
+Este padrão se aplica aos READMEs dos aplicativos. O perfil pessoal tem uma [direção visual própria](profile-design.md), com banners, ícones e animação na apresentação.
+
 ## Ordem de leitura
 
 1. **Nome e proposta:** um título e até duas frases sobre público, problema e resultado. A stack vem depois do produto.
