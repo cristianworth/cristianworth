@@ -8,7 +8,7 @@ O perfil pessoal é uma vitrine visual do trabalho de Cristian. A documentação
 - **Tipografia:** nome em destaque no banner; Fira Code no texto animado; fonte nativa do GitHub para a leitura.
 - **Composição:** abertura centralizada, demos em sequência com botões antes das imagens, produtos com capturas maiores e tecnologias separadas por contexto. A captura longa do Worklog fica expansível para preservar a leitura no celular.
 - **Movimento:** entrada do banner e frases digitadas na abertura. Capturas e botões de produto permanecem estáticos.
-- **Conteúdo:** evidência do produto antes da lista de ferramentas. C#, JavaScript, HTML e CSS como base; ferramentas recentes e estudos futuros identificados separadamente.
+- **Conteúdo:** experiência profissional em backend C#/.NET e SQL Server próxima à abertura, com ASP.NET MVC, NHibernate e ferramentas de diagnóstico e entrega contextualizados. Nextage e Worklog como destaques; tecnologias dos projetos pessoais e estudos futuros identificados separadamente.
 
 ## Referência e recursos
 
