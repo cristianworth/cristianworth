@@ -19,11 +19,13 @@ Referência consultada em 28/10/2026: [perfil de Henrique Martinelli Frezzatti](
 | Capsule Render        | Banner e rodapé em ondas, com paleta própria e entrada do título | [Projeto oficial](https://github.com/kyechan99/capsule-render)       |
 | Readme Typing SVG     | Frases curtas sobre base e prática                               | [Projeto oficial](https://github.com/DenverCoder1/readme-typing-svg) |
 | Skill Icons           | Ícones de tecnologias agrupados por contexto                     | [Projeto oficial](https://github.com/tandpfun/skill-icons)           |
-| Shields.io            | Links visuais para contato e demos                               | [Documentação oficial](https://shields.io/badges)                    |
+| Shields.io            | Badge de contato no LinkedIn                                     | [Documentação oficial](https://shields.io/badges)                    |
 | Botão de demonstração | SVG estático mantido neste repositório                           | [Ativo local](../assets/try-demo-pt.svg)                             |
 | Capturas              | Imagens já publicadas nos repositórios dos produtos              | Links no README                                                      |
 
 Esses recursos aparecem na referência e têm configuração pública documentada. A adaptação usa conteúdo, paleta e seleção de produtos próprios.
+
+Os botões de portfólio/projetos e os badges da experiência profissional são SVGs próprios em `assets/`, com nomes de tecnologias e texto acessível. Substituem as imagens externas que não carregaram na conferência do GitHub em 29/10/2026.
 
 ## Manutenção e limites
 

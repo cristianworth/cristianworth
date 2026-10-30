@@ -8,7 +8,7 @@
 
 <p><a href="#experi%C3%AAncia-profissional"><img src="https://skillicons.dev/icons?i=cs,dotnet,js,jquery,html,css&amp;theme=dark" height="48" alt="Base profissional em C#, .NET, JavaScript, jQuery, HTML e CSS."></a></p>
 
-<p><a href="https://cristianworth.github.io/portfolio/"><img src="https://img.shields.io/badge/Portf%C3%B3lio_e_cases-4F46E5?style=for-the-badge" alt="Abrir portfólio e cases"></a> <a href="https://www.linkedin.com/in/cristian-weissmantel/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="Conversar pelo LinkedIn"></a> <a href="#projetos-para-experimentar"><img src="https://img.shields.io/badge/Experimentar_projetos-183153?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Ir para os projetos e demonstrações"></a></p>
+<p><a href="https://cristianworth.github.io/portfolio/"><img src="assets/profile-portfolio.svg" alt="Abrir portfólio e cases"></a> <a href="https://www.linkedin.com/in/cristian-weissmantel/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="Conversar pelo LinkedIn"></a> <a href="#projetos-para-experimentar"><img src="assets/profile-projects.svg" alt="Ir para os projetos e demonstrações"></a></p>
 
 </div>
 
@@ -21,7 +21,7 @@ Na **LG lugar de gente**, trabalho na manutenção e evolução de um produto Sa
 - **Qualidade e entrega:** execução de testes com NUnit, contribuição pontual em testes de regras e validação manual estruturada. SVN para versionamento e merges entre versões; Redmine para rastreabilidade e TeamCity como CI existente do time.
 - **Do requisito à solução:** participação na definição de escopo e propostas técnicas junto a Produto, suporte e gestão, conectando a necessidade ao comportamento esperado.
 
-<p><img src="https://img.shields.io/badge/ASP.NET_MVC-512BD4?style=flat-square" alt="ASP.NET MVC e Razor"> <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square" alt="SQL Server"> <img src="https://img.shields.io/badge/NHibernate-7B4B94?style=flat-square" alt="NHibernate"> <img src="https://img.shields.io/badge/NUnit-347D39?style=flat-square" alt="NUnit"> <img src="https://img.shields.io/badge/Kibana-005571?style=flat-square" alt="Consulta de logs no Kibana"> <img src="https://img.shields.io/badge/SVN-586A8A?style=flat-square" alt="SVN"> <img src="https://img.shields.io/badge/Redmine-B32024?style=flat-square" alt="Redmine"> <img src="https://img.shields.io/badge/CI-TeamCity-2867B2?style=flat-square" alt="Uso da CI do time com TeamCity"></p>
+<p><img src="assets/badges/aspnet-mvc.svg" alt="ASP.NET MVC e Razor"> <img src="assets/badges/sql-server.svg" alt="SQL Server"> <img src="assets/badges/nhibernate.svg" alt="NHibernate"> <img src="assets/badges/nunit.svg" alt="NUnit"> <img src="assets/badges/kibana.svg" alt="Consulta de logs no Kibana"> <img src="assets/badges/svn.svg" alt="SVN"> <img src="assets/badges/redmine.svg" alt="Redmine"> <img src="assets/badges/teamcity.svg" alt="Uso da CI do time com TeamCity"></p>
 
 ## Projetos para experimentar
 
