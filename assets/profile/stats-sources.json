@@ -1,0 +1,14 @@
+{
+  "updatedAt": "2026-11-01T22:38:26.623Z",
+  "scope": "Public GitHub statistics; corporate SVN activity is not included.",
+  "sources": {
+    "stats": "https://github-stats-extended.vercel.app/api?username=cristianworth&show_icons=true&icon_color=9D4EDD&theme=dark&hide_border=true&bg_color=0D1117&title_color=C77DFF&disable_animations=true",
+    "languages": "https://github-stats-extended.vercel.app/api/top-langs?username=cristianworth&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=C77DFF&disable_animations=true",
+    "streak": "https://streak-stats.demolab.com/?user=cristianworth&theme=dark&hide_border=true&background=0D1117&ring=C77DFF&fire=9D4EDD&currStreakLabel=C77DFF&disable_animations=true&timezone=America%2FSao_Paulo",
+    "activity": "https://github.com/users/cristianworth/contributions"
+  },
+  "activityPeriod": {
+    "from": "2026-10-02",
+    "to": "2026-11-01"
+  }
+}

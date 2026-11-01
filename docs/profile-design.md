@@ -1,36 +1,44 @@
 # Identidade visual do perfil
 
-O perfil pessoal é uma vitrine visual do trabalho de Cristian. A documentação dos aplicativos continua seguindo o [padrão de produto](readme-standard.md), com leitura direta e demonstrações fáceis de encontrar. O perfil pode ter cor, ícones e movimento sem aplicar essas escolhas a todos os READMEs.
+Direção aprovada em 01/11/2026: **opção A — completa**, inspirada no [perfil de Henrique Martinelli Frezzatti](https://github.com/henriquemf/henriquemf).
 
-## Direção
+## Estrutura
 
-- **Cores:** azul profundo `#183153`, índigo `#4F46E5`, ciano `#22D3EE`, violeta para o texto animado `#6366F1` e branco `#FFFFFF`.
-- **Tipografia:** nome em destaque no banner; Fira Code no texto animado; fonte nativa do GitHub para a leitura.
-- **Composição:** abertura centralizada, demos em sequência com botões antes das imagens, produtos com capturas maiores e tecnologias separadas por contexto. A captura longa do Worklog fica expansível para preservar a leitura no celular.
-- **Movimento:** entrada do banner e frases digitadas na abertura. Capturas e botões de produto permanecem estáticos.
-- **Conteúdo:** experiência profissional em backend C#/.NET e SQL Server próxima à abertura, com ASP.NET MVC, NHibernate e ferramentas de diagnóstico e entrega contextualizados. Nextage e Worklog como destaques; tecnologias dos projetos pessoais e estudos futuros identificados separadamente.
+1. Nome, cargo de Desenvolvedor Pleno e tecnologias no banner.
+2. Linha animada com grupos de stacks e uma faixa de ícones.
+3. Contatos para LinkedIn, portfólio e GitHub.
+4. Sobre mim curto, com atuação e interesses.
+5. Tech Stack agrupada em backend, frontend, dados/persistência e ferramentas/qualidade.
+6. GitHub Stats, linguagens, sequência de contribuições e gráfico de atividade.
 
-## Referência e recursos
+A seleção reúne tecnologias utilizadas no trabalho e nos projetos pessoais. Interesses futuros permanecem no texto de apresentação. A vitrine de produtos e os cases ficam no site do portfólio.
 
-Referência consultada em 28/10/2026: [perfil de Henrique Martinelli Frezzatti](https://github.com/henriquemf/henriquemf). O README consultado utiliza Capsule Render, Readme Typing SVG, Skill Icons, Shields.io, contador de visitas e painéis de atividade/estatísticas. Não identifica um template original específico. Na versão consultada, o movimento vem de SVGs, sem arquivo GIF no README.
+## Aparência e recursos
 
-| Recurso               | Uso neste perfil                                                 | Fonte                                                                |
-| --------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------- |
-| Capsule Render        | Banner e rodapé em ondas, com paleta própria e entrada do título | [Projeto oficial](https://github.com/kyechan99/capsule-render)       |
-| Readme Typing SVG     | Frases curtas sobre base e prática                               | [Projeto oficial](https://github.com/DenverCoder1/readme-typing-svg) |
-| Skill Icons           | Ícones de tecnologias agrupados por contexto                     | [Projeto oficial](https://github.com/tandpfun/skill-icons)           |
-| Shields.io            | Badge de contato no LinkedIn                                     | [Documentação oficial](https://shields.io/badges)                    |
-| Botão de demonstração | SVG estático mantido neste repositório                           | [Ativo local](../assets/try-demo-pt.svg)                             |
-| Capturas              | Imagens já publicadas nos repositórios dos produtos              | Links no README                                                      |
+Paleta roxa: base `#1A0033`, destaque `#6A0DAD`, texto/acento `#C77DFF` e fundo do GitHub `#0D1117`. O texto usa a fonte nativa do GitHub; o banner e os ícones são imagens SVG. O README não executa JavaScript.
 
-Esses recursos aparecem na referência e têm configuração pública documentada. A adaptação usa conteúdo, paleta e seleção de produtos próprios.
+Os recursos publicados ficam em `assets/profile/`:
 
-Os botões de portfólio/projetos e os badges da experiência profissional são SVGs próprios em `assets/`, com nomes de tecnologias e texto acessível. Substituem as imagens externas que não carregaram na conferência do GitHub em 29/10/2026.
+| Recurso                    | Origem e manutenção                                                                                                                                                                                                          |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Banner e rodapé em ondas   | [Capsule Render](https://github.com/kyechan99/capsule-render); [licença](../assets/profile/LICENSE-capsule-render.txt)                                                                                                       |
+| Linha animada de stacks    | SVG próprio com primeiro quadro legível e suporte a movimento reduzido                                                                                                                                                       |
+| Ícones de tecnologias      | [Skill Icons](https://github.com/tandpfun/skill-icons); [licença](../assets/profile/LICENSE-skill-icons.txt)                                                                                                                 |
+| Badges e botões            | SVGs próprios com texto acessível                                                                                                                                                                                            |
+| Estatísticas e linguagens  | API de [GitHub Stats Extended](https://github-stats-extended.vercel.app), baseada em [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats); [licença](../assets/profile/LICENSE-github-readme-stats.txt) |
+| Sequência de contribuições | [GitHub Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats); [licença](../assets/profile/LICENSE-streak-stats.txt)                                                                              |
+| Atividade                  | SVG próprio a partir do calendário público de contribuições do GitHub                                                                                                                                                        |
 
-## Manutenção e limites
+## Atualização dos painéis
 
-Os serviços externos geram imagens SVG; o GitHub não executa JavaScript ou uma aplicação React dentro deste README. O perfil não exige site, chave de API ou workflow agendado. Se um serviço externo ficar indisponível, os textos alternativos e os links de texto continuam descrevendo o conteúdo e dando acesso aos projetos.
+O script `scripts/update-profile-stats.mjs` consulta apenas dados públicos, atualiza os quatro SVGs e registra fontes, período e horário em [stats-sources.json](../assets/profile/stats-sources.json). O gráfico mostra os últimos 31 dias disponíveis; os outros serviços têm seus próprios períodos e caches.
 
-Não incluir uma ferramenta como domínio adquirido apenas por ela aparecer em um projeto assistido por IA. Rever o estágio das demos e o conteúdo das capturas antes de atualizar a apresentação. Não adicionar contadores, sequências de commits ou percentuais de linguagens como prova de senioridade.
+O workflow `.github/workflows/profile-stats.yml` executa diariamente e também aceita execução manual. Só grava os painéis e seus metadados. Não exige chave pessoal ou acesso a repositórios privados; usa o token temporário do GitHub Actions para commitar os arquivos deste repositório.
 
-Ao editar o layout, conferir o resultado no GitHub em largura de desktop e celular, o carregamento das imagens e o destino dos botões. As animações dependem do serviço fornecedor; texto e navegação não dependem delas.
+As fontes são obtidas e validadas antes de substituir os painéis. Se a consulta falhar, os arquivos anteriores permanecem publicados e o workflow informa a falha. A rotina pode ser executada localmente com:
+
+```sh
+node scripts/update-profile-stats.mjs
+```
+
+Antes de publicar alterações, conferir imagens, links, animação e leitura em desktop e celular. O [padrão dos aplicativos](readme-standard.md) continua separado da apresentação pessoal.

@@ -1,132 +1,45 @@
-<div align="center">
+<p align="center"><img src="assets/profile/banner.svg" width="100%" alt="Cristian Weissmantel — Desenvolvedor Pleno | C#/.NET · React · TypeScript"></p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:183153,55:4F46E5,100:22D3EE&amp;height=230&amp;section=header&amp;text=Cristian%20Weissmantel&amp;fontSize=46&amp;fontColor=FFFFFF&amp;animation=fadeIn&amp;fontAlignY=37&amp;desc=Backend%20como%20base.%20Produtos%20como%20pr%C3%A1tica.&amp;descAlignY=57&amp;descSize=19" width="100%" alt="Cristian Weissmantel — Backend como base. Produtos como prática.">
+<p align="center"><img src="assets/profile/typing.svg" width="760" alt="Desenvolvedor Pleno. C# e .NET. React e TypeScript. SQL Server e PostgreSQL."></p>
 
-<a href="#experi%C3%AAncia-profissional"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=20&amp;pause=1800&amp;color=6366F1&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=45&amp;lines=C%23+%C2%B7+.NET+%C2%B7+SQL+Server;Regras+de+neg%C3%B3cio+e+diagn%C3%B3stico+de+defeitos;Software+corporativo+e+produtos+para+experimentar" width="760" alt="C#, .NET e SQL Server. Regras de negócio e diagnóstico de defeitos. Software corporativo e produtos para experimentar."></a>
+<p align="center"><img src="assets/profile/icons-main.svg" width="480" alt="C#, .NET, React, TypeScript, JavaScript, Node.js, PostgreSQL e Git"></p>
 
-<p>Desenvolvedor com experiência em <b>backend C#/.NET e SQL Server</b>.<br>Atuo na evolução de software corporativo e construo aplicações a partir de problemas da rotina.</p>
+<p align="center"><a href="https://www.linkedin.com/in/cristian-weissmantel/"><img src="assets/profile/contact.svg" height="28" alt="LinkedIn"></a> <a href="https://cristianworth.github.io/portfolio/"><img src="assets/profile/portfolio.svg" height="28" alt="Portfólio"></a> <a href="https://github.com/cristianworth"><img src="assets/profile/github-link.svg" height="28" alt="GitHub"></a></p>
 
-<p><a href="#experi%C3%AAncia-profissional"><img src="https://skillicons.dev/icons?i=cs,dotnet,js,jquery,html,css&amp;theme=dark" height="48" alt="Base profissional em C#, .NET, JavaScript, jQuery, HTML e CSS."></a></p>
+## Sobre mim
 
-<p><a href="https://cristianworth.github.io/portfolio/"><img src="assets/profile-portfolio.svg" alt="Abrir portfólio e cases"></a> <a href="https://www.linkedin.com/in/cristian-weissmantel/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="Conversar pelo LinkedIn"></a> <a href="#projetos-para-experimentar"><img src="assets/profile-projects.svg" alt="Ir para os projetos e demonstrações"></a></p>
+- Desenvolvedor **Pleno** na **LG lugar de gente**.
+- Experiência com **C#/.NET**, desenvolvimento web e bancos de dados relacionais.
+- Trabalho com **ASP.NET MVC, SQL Server e NHibernate** e também utilizo **ASP.NET Core, React, TypeScript e Node.js** nos meus projetos.
+- No dia a dia, trabalho com **Git/SVN, testes automatizados, integração contínua e manutenção de aplicações web**.
+- Interesse em **inteligência artificial aplicada ao desenvolvimento de software e integração de LLMs em aplicações**.
 
-</div>
+## Tech Stack
 
-## Experiência profissional
+### Backend
 
-Na **LG lugar de gente**, trabalho na manutenção e evolução de um produto SaaS de **planejamento e orçamento de pessoal**, com C#/.NET Framework, ASP.NET MVC, NHibernate e SQL Server.
+<p><img src="assets/profile/cs.svg" height="28" alt="C#"> <img src="assets/profile/dotnet.svg" height="28" alt=".NET"> <img src="assets/profile/mvc.svg" height="28" alt="ASP.NET MVC"> <img src="assets/profile/core.svg" height="28" alt="ASP.NET Core"> <img src="assets/profile/node.svg" height="28" alt="Node.js"> <img src="assets/profile/express.svg" height="28" alt="Express"></p>
 
-- **Regras de negócio e persistência:** serviços, validações, consultas e scripts de evolução do banco; integração entre módulos por contratos de serviço e DTOs.
-- **Diagnóstico de defeitos:** reprodução local, depuração, análise de dados e logs no Kibana para investigar falhas de gravação, processamentos e divergências em relatórios.
-- **Qualidade e entrega:** execução de testes com NUnit, contribuição pontual em testes de regras e validação manual estruturada. SVN para versionamento e merges entre versões; Redmine para rastreabilidade e TeamCity como CI existente do time.
-- **Do requisito à solução:** participação na definição de escopo e propostas técnicas junto a Produto, suporte e gestão, conectando a necessidade ao comportamento esperado.
+### Frontend
 
-<p><img src="assets/badges/aspnet-mvc.svg" alt="ASP.NET MVC e Razor"> <img src="assets/badges/sql-server.svg" alt="SQL Server"> <img src="assets/badges/nhibernate.svg" alt="NHibernate"> <img src="assets/badges/nunit.svg" alt="NUnit"> <img src="assets/badges/kibana.svg" alt="Consulta de logs no Kibana"> <img src="assets/badges/svn.svg" alt="SVN"> <img src="assets/badges/redmine.svg" alt="Redmine"> <img src="assets/badges/teamcity.svg" alt="Uso da CI do time com TeamCity"></p>
+<p><img src="assets/profile/js.svg" height="28" alt="JavaScript"> <img src="assets/profile/ts.svg" height="28" alt="TypeScript"> <img src="assets/profile/react.svg" height="28" alt="React"> <img src="assets/profile/html.svg" height="28" alt="HTML5"> <img src="assets/profile/css.svg" height="28" alt="CSS3"> <img src="assets/profile/jquery.svg" height="28" alt="jQuery"> <img src="assets/profile/vite.svg" height="28" alt="Vite"></p>
 
-## Projetos para experimentar
+### Dados e persistência
 
-Projetos pessoais com demonstrações públicas, decisões documentadas e desenvolvimento assistido por IA. O [portfólio](https://cristianworth.github.io/portfolio/) reúne os produtos e dois cases completos.
+<p><img src="assets/profile/sqlserver.svg" height="28" alt="SQL Server"> <img src="assets/profile/postgres.svg" height="28" alt="PostgreSQL"> <img src="assets/profile/sqlite.svg" height="28" alt="SQLite"> <img src="assets/profile/nhibernate.svg" height="28" alt="NHibernate"> <img src="assets/profile/indexeddb.svg" height="28" alt="IndexedDB"> <img src="assets/profile/supabase.svg" height="28" alt="Supabase"></p>
 
-### Nextage Class
+### Ferramentas e qualidade
 
-**Da agenda à continuidade pedagógica de cada aluno.** Planejamento de aulas, histórico de conteúdo e pedidos de horário para professores particulares de idiomas, com fluxos validados com uma professora.
+<p><img src="assets/profile/git.svg" height="28" alt="Git"> <img src="assets/profile/github.svg" height="28" alt="GitHub"> <img src="assets/profile/svn.svg" height="28" alt="SVN"> <img src="assets/profile/actions.svg" height="28" alt="GitHub Actions"> <img src="assets/profile/teamcity.svg" height="28" alt="TeamCity"> <img src="assets/profile/redmine.svg" height="28" alt="Redmine"> <img src="assets/profile/kibana.svg" height="28" alt="Kibana"> <img src="assets/profile/nunit.svg" height="28" alt="NUnit"> <img src="assets/profile/vitest.svg" height="28" alt="Vitest"> <img src="assets/profile/playwright.svg" height="28" alt="Playwright"></p>
 
-<a href="https://cristianworth.github.io/nextage-class/"><img src="assets/try-demo-pt.svg" width="240" alt="Experimentar online — Nextage Class"></a>
+## GitHub Stats
 
-[Abrir demo](https://cristianworth.github.io/nextage-class/) · [Ler o case](https://cristianworth.github.io/portfolio/cases/nextage-class/) · [Ver código](https://github.com/cristianworth/nextage-class)
+<p align="center"><img src="assets/profile/stats.svg" width="420" alt="Estatísticas públicas de cristianworth no GitHub"> <img src="assets/profile/languages.svg" width="360" alt="Linguagens nos repositórios públicos de cristianworth"></p>
 
-**O que vale conhecer:** disponibilidade, remarcação e progresso pedagógico têm regras próprias; o histórico preserva o contexto de cada encontro.
+<p align="center"><img src="assets/profile/streak.svg" width="600" alt="Sequência de contribuições de cristianworth"></p>
 
-**Demo:** React · TypeScript · Vite, com dados fictícios neste navegador e sem login. **Piloto em desenvolvimento:** C# · ASP.NET Core · PostgreSQL, com contas e API em uma frente separada.
+<p align="center"><img src="assets/profile/activity.svg" width="100%" alt="Atividade pública de cristianworth no GitHub"></p>
 
-<a href="https://cristianworth.github.io/nextage-class/"><img src="https://raw.githubusercontent.com/cristianworth/nextage-class/master/docs/images/overview.png" width="780" alt="Nextage Class: agenda e acompanhamento pedagógico com dados fictícios da demo pública."></a>
+<sub>[Recursos visuais e manutenção](docs/profile-design.md)</sub>
 
-### Worklog for Redmine
-
-**Vários dias de horas organizados para revisar e enviar.** Rascunhos, totais por dia, confirmação dos apontamentos e registro dos resultados, a partir de uma necessidade da minha rotina de trabalho.
-
-<a href="https://cristianworth.github.io/worklog-for-redmine/"><img src="assets/try-demo-pt.svg" width="240" alt="Experimentar online — Worklog for Redmine"></a>
-
-[Abrir demo](https://cristianworth.github.io/worklog-for-redmine/) · [Ler o case](https://cristianworth.github.io/portfolio/cases/worklog/) · [Ver código](https://github.com/cristianworth/worklog-for-redmine)
-
-**O que vale conhecer:** salvar e enviar são ações separadas; lotes têm resultados parciais e recibos preservados para orientar a recuperação após falhas.
-
-**Interface:** React · TypeScript. **Modo local:** Node.js · Express · SQLite · API do Redmine. A demo usa dados fictícios e envio simulado, sem acessar um Redmine real.
-
-<details>
-<summary>Ver a interface do Worklog</summary>
-
-<a href="https://cristianworth.github.io/worklog-for-redmine/"><img src="https://raw.githubusercontent.com/cristianworth/worklog-for-redmine/master/docs/images/demo.png" width="480" alt="Worklog for Redmine: rascunhos, totais e revisão de apontamentos na demonstração."></a>
-
-</details>
-
-### Fitness Lab
-
-**Treino, alimentação e evolução em um diário pessoal.** Sessões retomáveis, histórico com contexto e backup validado dos registros armazenados no navegador.
-
-<a href="https://cristianworth.github.io/fitness-lab/?mode=demo"><img src="assets/try-demo-pt.svg" width="240" alt="Experimentar online — Fitness Lab"></a>
-
-[Abrir demo](https://cristianworth.github.io/fitness-lab/?mode=demo) · [Ver código](https://github.com/cristianworth/fitness-lab)
-
-**O que vale conhecer:** os valores históricos são preservados após alterar cadastros; a demo utiliza um banco isolado dos registros pessoais, com restauração dos exemplos mediante confirmação.
-
-React · TypeScript · IndexedDB · Vitest · Playwright
-
-<a href="https://cristianworth.github.io/fitness-lab/?mode=demo"><img src="https://raw.githubusercontent.com/cristianworth/fitness-lab/main/docs/images/public-demo-desktop.png" width="780" alt="Fitness Lab: diário de treinos e alimentação no modo demonstrativo com dados sintéticos."></a>
-
-### Gacha Management Cloud
-
-**Calendário, recorrência e sincronização para organizar rotinas de jogos.** Stamina, tarefas, eventos e banners por perfil, preservando escolhas manuais durante as atualizações.
-
-JavaScript · HTML · CSS · Supabase · PostgreSQL
-
-[Conhecer o código e a aplicação](https://github.com/cristianworth/GachaManagement-cloud). A versão online usa perfis públicos compartilhados; a prévia local documentada permite conhecer o produto com dados fictícios.
-
-<details>
-<summary>Ver o painel do Gacha Management</summary>
-
-<a href="https://github.com/cristianworth/GachaManagement-cloud"><img src="https://raw.githubusercontent.com/cristianworth/GachaManagement-cloud/main/docs/images/overview.png" width="780" alt="Gacha Management Cloud: painel de perfis e rotinas com dados demonstrativos."></a>
-
-</details>
-
-### Weather Lab
-
-**Dados meteorológicos transformados em uma consulta visual.** Busca por localidade, favoritos e gráficos horários de temperatura e chuva.
-
-[Abrir aplicação](https://cristianworth.github.io/weather-lab/) · [Ver código](https://github.com/cristianworth/weather-lab)
-
-React · TypeScript · Vite · Open-Meteo, com dados reais de previsão do tempo.
-
-<details>
-<summary>Ver a interface do Weather Lab</summary>
-
-<a href="https://cristianworth.github.io/weather-lab/"><img src="https://raw.githubusercontent.com/cristianworth/weather-lab/main/docs/images/desktop.png" width="780" alt="Weather Lab: condições meteorológicas, previsão semanal e gráficos horários."></a>
-
-</details>
-
-## Tecnologias nos projetos pessoais
-
-<a href="#projetos-para-experimentar"><img src="https://skillicons.dev/icons?i=dotnet,react,ts,nodejs,postgres,sqlite,vite,githubactions&amp;theme=dark&amp;perline=4" width="240" alt="Tecnologias nos projetos pessoais: .NET, React, TypeScript, Node.js, PostgreSQL, SQLite, Vite e GitHub Actions."></a>
-
-**ASP.NET Core · React · TypeScript · Node.js · PostgreSQL · SQLite · IndexedDB · Vite · GitHub Actions**
-
-Nos projetos pessoais, defino o problema, o escopo e as prioridades e acompanho decisões e validações. A IA participa intensamente da implementação e das verificações; aprofundo essas tecnologias a partir dos produtos, com minha experiência profissional em backend como ponto de partida.
-
-### Laboratório e próxima direção
-
-No [Gacha OCR Lab](https://github.com/cristianworth/gacha-ocr-lab), exploro extração de dados de equipamentos a partir de imagens e revisão humana, com pilotos e limites documentados.
-
-Meu próximo foco é construir **aplicações com LLMs**, estudando **avaliação de respostas, RAG, tool calling e MCP**. Esses temas representam uma direção de aprendizado.
-
-<details>
-<summary><b>Documentação do portfólio e referências visuais</b></summary>
-
-- [Experiência profissional e critérios de apresentação](docs/professional-experience.md)
-- [Mapa de projetos e demos](docs/project-status.md)
-- [Padrão dos READMEs dos aplicativos](docs/readme-standard.md)
-- [Guia de manutenção](docs/maintenance.md)
-- [Identidade do perfil e recursos utilizados](docs/profile-design.md)
-
-</details>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:22D3EE,55:4F46E5,100:183153&amp;height=90&amp;section=footer" width="100%" alt="Encerramento visual em ondas azuis e violetas.">
+<p><img src="assets/profile/footer.svg" width="100%" alt="Rodapé em ondas roxas"></p>
