@@ -6,7 +6,7 @@ Direção aprovada em 01/11/2026: **opção A — completa**, inspirada no [perf
 
 1. Nome, cargo de Desenvolvedor Pleno e tecnologias no banner.
 2. Linha animada com grupos de stacks e uma faixa de ícones.
-3. Contatos para LinkedIn, portfólio e GitHub.
+3. Contatos para LinkedIn, portfólio e e-mail.
 4. Sobre mim curto, com atuação e interesses.
 5. Tech Stack agrupada em backend, frontend, dados/persistência e ferramentas/qualidade.
 6. GitHub Stats, linguagens, sequência de contribuições e gráfico de atividade.

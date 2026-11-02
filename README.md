@@ -4,7 +4,7 @@
 
 <p align="center"><img src="assets/profile/icons-main.svg" width="480" alt="C#, .NET, React, TypeScript, JavaScript, Node.js, PostgreSQL e Git"></p>
 
-<p align="center"><a href="https://www.linkedin.com/in/cristian-weissmantel/"><img src="assets/profile/contact.svg" height="28" alt="LinkedIn"></a> <a href="https://cristianworth.github.io/portfolio/"><img src="assets/profile/portfolio.svg" height="28" alt="Portfólio"></a> <a href="https://github.com/cristianworth"><img src="assets/profile/github-link.svg" height="28" alt="GitHub"></a></p>
+<p align="center"><a href="https://www.linkedin.com/in/cristian-weissmantel/"><img src="assets/profile/contact.svg" height="28" alt="LinkedIn"></a> <a href="https://cristianworth.github.io/portfolio/"><img src="assets/profile/portfolio.svg" height="28" alt="Portfólio"></a> <a href="mailto:cristianweissmantel@gmail.com"><img src="assets/profile/email.svg" height="28" alt="E-mail: cristianweissmantel@gmail.com"></a></p>
 
 ## Sobre mim
 
