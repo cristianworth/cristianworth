@@ -1,6 +1,6 @@
 # Padrão de apresentação dos projetos
 
-Objetivo: permitir que alguém entenda o produto, encontre a demonstração e identifique o que vale examinar no código em uma leitura rápida. Padrão adotado em 28/10/2026; preservar a língua e as convenções de cada projeto.
+Objetivo: permitir que alguém entenda o produto, encontre a demonstração e identifique o que vale examinar no código em uma leitura rápida. A documentação segue a língua e as convenções de cada projeto.
 
 Este padrão se aplica aos READMEs dos aplicativos. O perfil pessoal tem uma [direção visual própria](profile-design.md), com banners, ícones e animação na apresentação.
 
@@ -33,11 +33,10 @@ O README deve funcionar como entrada do projeto, normalmente com 80–140 linhas
 | ---------------------------------- | --------------------------------------------- |
 | Execução, configuração e migrações | Guia de instalação/uso em docs/               |
 | Arquitetura e contratos            | Documento curto de arquitetura                |
-| Paleta, marca e referências        | Estudo visual em docs/                        |
+| Paleta, marca e recursos visuais   | Guia de identidade visual em docs/            |
 | Comportamento e evidências         | Guias funcionais e validação                  |
 | Entregas publicadas                | Changelog, quando adotado pelo projeto        |
 | Próximo trabalho                   | Roadmap único, sem duplicar backlog no perfil |
-| Inventário entre projetos          | docs/project-status.md deste perfil           |
 
 ## Conferência antes de publicar
 
@@ -46,7 +45,6 @@ O README deve funcionar como entrada do projeto, normalmente com 80–140 linhas
 - Links locais, âncoras e imagens resolvem; arquivos novos fazem parte da entrega.
 - Capturas e exemplos não contêm dados pessoais, credenciais ou acervo privado.
 - Requisitos e comandos existem no projeto. Uma edição documental não deve disparar testes de produto sem necessidade.
-- Mudanças existentes de outros chats são preservadas. Ler as regras locais de Git e changelog antes de commits/pushes; o padrão não concede essas autorizações.
 
 ## Adoção atual
 

@@ -1,6 +1,6 @@
 # Identidade visual do perfil
 
-Direção aprovada em 01/11/2026: **opção A — completa**, inspirada no [perfil de Henrique Martinelli Frezzatti](https://github.com/henriquemf/henriquemf).
+Guia dos recursos visuais e da atualização automática dos painéis do perfil.
 
 ## Estrutura
 
@@ -32,6 +32,8 @@ Os recursos publicados ficam em `assets/profile/`:
 ## Atualização dos painéis
 
 O script `scripts/update-profile-stats.mjs` consulta apenas dados públicos, atualiza os quatro SVGs e registra fontes, período e horário em [stats-sources.json](../assets/profile/stats-sources.json). O gráfico mostra os últimos 31 dias disponíveis; os outros serviços têm seus próprios períodos e caches.
+
+O cartão de estatísticas usa `hide_rank=true` para exibir os indicadores sem classificação por nota.
 
 O workflow `.github/workflows/profile-stats.yml` executa diariamente e também aceita execução manual. Só grava os painéis e seus metadados. Não exige chave pessoal ou acesso a repositórios privados; usa o token temporário do GitHub Actions para commitar os arquivos deste repositório.
 

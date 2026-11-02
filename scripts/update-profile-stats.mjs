@@ -9,7 +9,7 @@ const endpoints = {
   stats:
     "https://github-stats-extended.vercel.app/api?username=" +
     username +
-    "&show_icons=true&icon_color=9D4EDD&" +
+    "&show_icons=true&hide_rank=true&icon_color=9D4EDD&" +
     statStyle,
   languages:
     "https://github-stats-extended.vercel.app/api/top-langs?username=" +
@@ -183,7 +183,7 @@ function activityGraph(days) {
 
 const cards = await Promise.all(
   Object.entries(endpoints).map(async ([name, url]) => {
-    const svg = await request(url);
+    let svg = await request(url);
     if (
       !svg.includes("<svg") ||
       /Something went wrong|Error Fetching Resource|Could not resolve to a User|maximum retries|Vercel Security Checkpoint/i.test(
@@ -192,6 +192,13 @@ const cards = await Promise.all(
     ) {
       throw new Error(
         name + ": invalid stats response; previous assets are preserved.",
+      );
+    }
+    if (name === "stats") {
+      // The service still includes the hidden rank in its accessible title.
+      svg = svg.replace(
+        /(<title\b[^>]*>[^<]*), Rank: [^<]*(<\/title>)/g,
+        "$1$2",
       );
     }
     return [name, svg];

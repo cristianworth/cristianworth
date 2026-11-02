@@ -1,15 +1,15 @@
 
       <svg
-        width="467"
+        width="379.4999990463257"
         height="195"
-        viewBox="0 0 467 195"
+        viewBox="0 0 379.4999990463257 195"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Cristian Weissmantel&#39;s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 208, Total PRs: 19, Total Issues: 1, Contributed to (last year): 1</desc>
+        <title id="titleId">Cristian Weissmantel&#39;s GitHub Stats</title>
+        <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 214, Total PRs: 19, Total Issues: 1, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 209.99384682608135;
+        stroke-dashoffset: 209.6056419344278;
       }
     }
 
@@ -117,7 +117,7 @@
           rx="4.5"
           height="99%"
           stroke="#e4e2e2"
-          width="466"
+          width="378.4999990463257"
           fill="#0D1117"
           stroke-opacity="0"
         />
@@ -143,18 +143,7 @@
           transform="translate(0, 55)"
         >
 
-    <g data-testid="rank-circle"
-          transform="translate(390.5, 47.5)">
-        <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
-        <circle class="rank-circle" cx="-10" cy="8" r="40" />
-        <g class="rank-text">
 
-        <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          C+
-        </text>
-
-        </g>
-      </g>
     <svg x="0" y="0">
       <g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
@@ -184,7 +173,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >208</text>
+      >214</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
