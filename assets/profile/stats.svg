@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Cristian Weissmantel&#39;s GitHub Stats</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 243, Total PRs: 19, Total Issues: 1, Contributed to (last year): 1</desc>
+        <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 251, Total PRs: 19, Total Issues: 1, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 207.81772381842285;
+        stroke-dashoffset: 207.34928236944637;
       }
     }
 
@@ -173,7 +173,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >243</text>
+      >251</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
