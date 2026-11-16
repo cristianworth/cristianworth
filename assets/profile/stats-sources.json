@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:17:33.210Z",
+  "updatedAt": "2026-11-16T20:35:21.284Z",
   "scope": "Public GitHub statistics; corporate SVN activity is not included.",
   "sources": {
     "stats": "https://github-stats-extended.vercel.app/api?username=cristianworth&show_icons=true&hide_rank=true&icon_color=9D4EDD&theme=dark&hide_border=true&bg_color=0D1117&title_color=C77DFF&disable_animations=true",
@@ -8,7 +8,7 @@
     "activity": "https://github.com/users/cristianworth/contributions"
   },
   "activityPeriod": {
-    "from": "2026-10-16",
-    "to": "2026-11-15"
+    "from": "2026-10-17",
+    "to": "2026-11-16"
   }
 }
