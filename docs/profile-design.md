@@ -44,3 +44,12 @@ node scripts/update-profile-stats.mjs
 ```
 
 Antes de publicar alterações, conferir imagens, links, animação e leitura em desktop e celular. O [padrão dos aplicativos](readme-standard.md) continua separado da apresentação pessoal.
+
+## Fluxo de contribuição
+
+- Para mudanças solicitadas ou aprovadas, use uma branch curta a partir de `master` remota atualizada, preservando trabalho local. Use issue quando houver algo a acompanhar; mudanças pequenas podem ser descritas diretamente no PR.
+- Respeite o escopo autorizado no pedido para issues, branches, commits, push e PR. Este processo não concede autorização operacional geral nem amplia a autorização de uma entrega para outras.
+- Abra um PR com a mudança, como verificou, limitações e issue relacionada, quando houver. Use rascunho enquanto houver revisão ou validação pendente; confira o diff e as verificações aplicáveis ao SHA atual. Não há CI automático de PR neste repositório; registre essa ausência sem executar a atualização dos painéis para obter um check.
+- Integre somente após aprovação de Cristian para o diff revisado. Se o conteúdo mudar após a aprovação, apresente o novo diff e aguarde nova aprovação. Push direto em `master` exige autorização explícita.
+- A rotina diária existente de estatísticas continua gravando somente os SVGs e seus metadados diretamente em `master`. Ela é distinta do fluxo de revisão das contribuições e não autoriza outros pushes diretos ou execuções manuais. Preserve o script e o workflow.
+- O GitHub exibe o README e os recursos da branch padrão no perfil; não há publicação por Pages. Após uma integração autorizada, confira o resultado no perfil quando a apresentação mudar.
